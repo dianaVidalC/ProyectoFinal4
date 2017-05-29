@@ -97,12 +97,24 @@
   </section>
   <section class="tarifa">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-
+      <div class="row" style="margin-top:4rem;">
+        <div class="col-sm-6">
+            <h3 class="text-capitalize">tarifas</h3>
+            <p>Consulta las tarifas LabCar aquí</p>
+            <form action="">
+              <div class="form-group">
+                <label for="punto-partida"></label>
+                <span class="glyphicon glyphicon-record"></span><input type="text" class="form-control" id="punto-partida" placeholder="Ingrese punto de partida">
+              </div>
+              <div class="form-group">
+                <label for="punto-destino"></label>
+                <span class="glyphicon glyphicon-send"></span><input type="text" class="form-control" id="punto-destino" placeholder="Ingrese un destino">
+              </div>
+              <button class="btn btn-default color-black" type="button" name="button">¡Trazar Ruta!</button>
+            </form>
         </div>
-        <div class="col-md-6">
-
+        <div class="col-sm-6 bordes-map">
+          <div id="map" style="height:30rem;"></div>
         </div>
       </div>
     </div>

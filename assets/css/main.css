@@ -115,6 +115,40 @@ img#conduce{
 .btn-lab{
   background-color: #f7b617;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section.conduce h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+section.conduce p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.tarifa{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7b617;
+  color:#FFF;
+}
+
+section.tarifa input{
+  background-color: #f7b617;
+  color:#FFF;
+}
+
+section.tarifa input[type="text"]::-webkit-input-placeholder{
+  color: #fff;
+}
+
+section.tarifa button,
+section.tarifa h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+div.bordes-map{
+  padding: 1rem;
+  border: 1px solid #FFF;
 }
 
 #boton-xs{
@@ -126,21 +160,22 @@ img#conduce{
     transform: none!important;
   }
 
-  section.hero{
-    height: 54rem;
-  }
 
-  section.informacion{
-    height: 51rem;
-  }
-  .registro{
-    top:12rem;
-  }
+section.hero{
+  height: 54rem;
+}
 
-  .row-left{
-    transform: none;
-    padding: 4rem;
-    padding-top: 6rem;
-    margin:4rem 2rem 2rem 2rem;
-  }
+section.informacion{
+  height: 51rem;
+}
+
+.registro{
+  top:12rem;
+}
+
+.row-left{
+  transform: none;
+  padding: 4rem;
+  padding-top: 6rem;
+  margin:4rem 2rem 2rem 2rem;
 }
