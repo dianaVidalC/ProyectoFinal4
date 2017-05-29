@@ -2,9 +2,83 @@
   padding: 0;
   margin:0;
 }
+
+.navbar{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .row.navbar-fixed-top{
   background-color: #FFF;
 }
-#taxi{
-    transform: translateY(-58%);
+.col-md-12.hidden-xs{
+  margin:0;
+  padding: 0;
+}
+
+section.hero{
+  position: relative;
+  height: 131rem;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  background-image: url("../img/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-43%);
+}
+form{
+margin: 2rem 0;
+
+}
+.inline{
+  display: inline-block;
+}
+.registro{
+  position: absolute;
+  right: 0;
+  top:75rem;
+  height: auto;
+  background-color: #f7b617;
+  padding: 4rem;
+  font-weight: bold;
+}
+
+.div-flex{
+  display: flex;
+  justify-content: space-around;
+}
+form hr{
+  width: 15rem;
+}
+
+form h4{
+  margin-bottom: 2rem;
+}
+
+.line-height{
+  line-height: 0;
+  margin-bottom: 5rem;
+}
+
+.color-black{
+  color:#000;
+  font-weight: bold;
+}
+
+section.informacion{
+  background-color: #f7b617;
+  height: 50rem;
+}
+
+#boton-xs{
+  margin-top:2rem;
+}
+
+@media (max-width:728px){
+  section.hero{
+    transform: none;
+    background-size: contain;
+  }
+  .registro{
+    top:12rem;
+  }
 }
