@@ -151,6 +151,22 @@ div.bordes-map{
   border: 1px solid #FFF;
 }
 
+footer{
+  background-color: #2b2b2b ;
+  padding: 6rem;
+  color: #FFF;
+}
+
+footer hr{
+  border: 1px solid #FFF;
+}
+
+footer ul.nav li a{
+  color:#FFF;
+}
+footer ul.nav li a:hover{
+  color:#000;
+}
 #boton-xs{
   margin-top:2rem;
 }

@@ -1,9 +1,23 @@
 function initMap() {
+
+      var Lima = {lat: -12.1042, lng: -77.0299};
+      var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 18,
+          center: Lima
+      });
+      var markador = new google.maps.Marker({
+          position: Lima,
+          map: map
+      });
        var map = new google.maps.Map(document.getElementById('map'), {
          center: {lat: -34.397, lng: 150.644},
-         zoom: 6
+         zoom: 18
        });
        var infoWindow = new google.maps.InfoWindow({map: map});
+       var markadorLaboratoria = new google.maps.Marker({
+           position: map,
+           map: map
+       });
 
        // Try HTML5 geolocation.
        if (navigator.geolocation) {
