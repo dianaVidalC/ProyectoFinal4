@@ -1,8 +1,3 @@
-*{
-  padding: 0;
-  margin:0;
-}
-
 .navbar{
   font-family: 'Open Sans', sans-serif;
 }
@@ -17,13 +12,15 @@
 
 section.hero{
   position: relative;
-  height: 131rem;
+  height: 64rem;
   font-family: 'Raleway', sans-serif;
   color: #FFF;
-  background-image: url("../img/taxi.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: translateY(-43%);
+
+}
+img#taxi{
+  position: absolute;
+  transform: translateY(-45%);
+  left: 0;
 }
 form{
 margin: 2rem 0;
@@ -35,7 +32,7 @@ margin: 2rem 0;
 .registro{
   position: absolute;
   right: 0;
-  top:75rem;
+  top:14rem;
   height: auto;
   background-color: #f7b617;
   padding: 4rem;
@@ -65,8 +62,59 @@ form h4{
 }
 
 section.informacion{
+  position: relative;
   background-color: #f7b617;
+  height: 58rem;
+  color: #FFF;
+}
+
+section.informacion h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+section.informacion p{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.row-left{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  margin-top:6rem;
+  border: 1px solid #FFF;
+  padding: 4rem 18rem;
+  transform: translateX(-20%);
+}
+
+section.conduce{
+  position: relative;
   height: 50rem;
+}
+
+img#conduce{
+  position: absolute;
+  left: 0;
+  height: 50rem;
+  width: 100%;
+}
+
+.div-conduce{
+  position: absolute;
+  height: 50rem;
+  right: 0;
+  padding: 16rem 0 0 2rem;
+  color:#FFF;
+  background-color: rgba(13, 19, 23, 0.43);
+}
+
+.btn-lab{
+  background-color: #f7b617;
+  font-weight: bold;
 }
 
 #boton-xs{
@@ -74,11 +122,25 @@ section.informacion{
 }
 
 @media (max-width:728px){
+  #taxi{
+    transform: none!important;
+  }
+
   section.hero{
-    transform: none;
-    background-size: contain;
+    height: 54rem;
+  }
+
+  section.informacion{
+    height: 51rem;
   }
   .registro{
     top:12rem;
+  }
+
+  .row-left{
+    transform: none;
+    padding: 4rem;
+    padding-top: 6rem;
+    margin:4rem 2rem 2rem 2rem;
   }
 }
