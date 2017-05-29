@@ -1,10 +1,9 @@
 .navbar{
   font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+  background-color: #FFF
 }
 
-.row.navbar-fixed-top{
-  background-color: #FFF;
-}
 .col-md-12.hidden-xs{
   margin:0;
   padding: 0;
@@ -167,6 +166,18 @@ footer ul.nav li a{
 footer ul.nav li a:hover{
   color:#000;
 }
+
+footer .iconos-flex{
+  display: flex;
+  margin: 2rem 0;
+}
+footer .row-flex{
+  display: flex;
+  align-items: flex-end;
+}
+footer img{
+  margin-bottom: 2rem;
+}
 #boton-xs{
   margin-top:2rem;
 }
@@ -176,22 +187,34 @@ footer ul.nav li a:hover{
     transform: none!important;
   }
 
+  section.hero{
+    height: 54rem;
+  }
 
-section.hero{
-  height: 54rem;
-}
+  section.informacion{
+    height: 51rem;
+  }
 
-section.informacion{
-  height: 51rem;
-}
+  .registro{
+    top:12rem;
+  }
 
-.registro{
-  top:12rem;
-}
+  .row-left{
+    transform: none;
+    padding: 4rem;
+    padding-top: 6rem;
+    margin:4rem 2rem 2rem 2rem;
+  }
+  footer{
+    padding: 5rem 0;
+  }
+  .iconos-flex{
 
-.row-left{
-  transform: none;
-  padding: 4rem;
-  padding-top: 6rem;
-  margin:4rem 2rem 2rem 2rem;
+  }
+  .footer-flex{
+    display: flex;
+    flex-direction: column;
+    height: 31rem;
+  }
+
 }
