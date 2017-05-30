@@ -1,9 +1,11 @@
 .navbar{
   font-family: 'Open Sans', sans-serif;
   z-index: 1;
-  background-color: #FFF
+  background-color: #FFF;
 }
-
+nav img{
+  width: 92px;
+}
 .col-md-12.hidden-xs{
   margin:0;
   padding: 0;
@@ -182,6 +184,11 @@ footer img{
   margin-top:2rem;
 }
 
+#tarifa{
+  width: 50px;
+  height: 50px;
+  color:#000;
+}
 @media (max-width:728px){
   #taxi{
     transform: none!important;

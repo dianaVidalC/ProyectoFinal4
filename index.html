@@ -12,7 +12,7 @@
 </head>
 <body>
     <!---navbar---->
-        <nav class="navbar ">
+        <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="col-md-6">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -108,8 +108,9 @@
                 <label for="punto-destino"></label>
                 <span class="glyphicon glyphicon-send"></span><input type="text" class="form-control" id="punto-destino" placeholder="Ingrese un destino">
               </div>
-              <button class="btn btn-default color-black" type="button" name="button">¡Trazar Ruta!</button>
+              <button id="trazar-ruta" class="btn btn-default color-black" type="button" name="button">¡Trazar Ruta!</button>
             </form>
+            <div id="tarifa" class="none"></div>
         </div>
         <div class="col-sm-6 bordes-map hidden-xs">
           <div id="map" style="height:30rem;"></div>
