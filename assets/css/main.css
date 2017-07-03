@@ -10,115 +10,113 @@
 }
 
 section.hero{
-  position: relative;
-  height: 64rem;
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
+    background-image: url("../img/taxi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 64rem;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+}
 
-}
-img#taxi{
-  position: absolute;
-  transform: translateY(-45%);
-  left: 0;
-}
 form{
-margin: 2rem 0;
+    margin: 2rem 0;
 
 }
 .inline{
-  display: inline-block;
+    display: inline-block;
 }
 .registro{
-  position: absolute;
-  right: 0;
-  top:14rem;
-  height: auto;
-  background-color: #f7b617;
-  padding: 4rem;
-  font-weight: bold;
+    position: absolute;
+    right: 0;
+    top:14rem;
+    height: auto;
+    background-color: #f7b617;
+    padding: 4rem;
+    font-weight: bold;
 }
 
 .div-flex{
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 form hr{
-  width: 15rem;
+    width: 15rem;
 }
 
 form h4{
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .line-height{
-  line-height: 0;
-  margin-bottom: 5rem;
+    line-height: 0;
+    margin-bottom: 5rem;
 }
 
 .color-black{
-  color:#000;
-  font-weight: bold;
+    color:#000;
+    font-weight: bold;
 }
 
 section.informacion{
-  position: relative;
-  background-color: #f7b617;
-  height: 58rem;
-  color: #FFF;
+    position: relative;
+    background-color: #f7b617;
+    height: 58rem;
+    color: #FFF;
 }
 
 section.informacion h3{
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  margin-bottom: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 section.informacion p{
-  font-family: 'Open Sans', sans-serif;
-  line-height: 2.8rem;
-  font-size: 1.8rem;
-  margin-bottom: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
 }
 
 .row-left{
-  display: flex;
-  justify-content:flex-start;
-  align-items: flex-start;
-  margin-top:6rem;
-  border: 1px solid #FFF;
-  padding: 4rem 18rem;
-  transform: translateX(-20%);
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top:6rem;
+    border: 1px solid #FFF;
+    padding: 4rem 18rem;
+    transform: translateX(-20%);
 }
 
 section.conduce{
-  position: relative;
-  height: 50rem;
+    position: relative;
+    height: 50rem;
 }
 
 img#conduce{
-  position: absolute;
-  left: 0;
-  height: 50rem;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    height: 50rem;
+    width: 100%;
 }
 
 .div-conduce{
-  position: absolute;
-  height: 50rem;
-  right: 0;
-  padding: 16rem 0 0 2rem;
-  color:#FFF;
-  background-color: rgba(13, 19, 23, 0.43);
+    position: absolute;
+    height: 50rem;
+    right: 0;
+    padding: 16rem 0 0 2rem;
+    color:#FFF;
+    background-color: rgba(13, 19, 23, 0.43);
 }
 
 .btn-lab{
-  background-color: #f7b617;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+    background-color: #f7b617;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section.conduce h3{
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 section.conduce p{
@@ -126,95 +124,100 @@ section.conduce p{
 }
 
 section.tarifa{
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f7b617;
-  color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7b617;
+    color:#FFF;
 }
 
 section.tarifa input{
-  background-color: #f7b617;
-  color:#FFF;
+    background-color: #f7b617;
+    color:#FFF;
 }
 
 section.tarifa input[type="text"]::-webkit-input-placeholder{
-  color: #fff;
+    color: #fff;
 }
 
 section.tarifa button,
 section.tarifa h3{
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 div.bordes-map{
-  padding: 1rem;
-  border: 1px solid #FFF;
+    padding: 1rem;
+    border: 1px solid #FFF;
 }
 
 footer{
-  background-color: #2b2b2b ;
-  padding: 6rem;
-  color: #FFF;
+    background-color: #2b2b2b ;
+    padding: 6rem;
+    color: #FFF;
 }
 
 footer hr{
-  border: 1px solid #FFF;
+    border: 1px solid #FFF;
 }
 
 footer ul.nav li a{
-  color:#FFF;
+    color:#FFF;
 }
 footer ul.nav li a:hover{
-  color:#000;
+    color:#000;
 }
 
 footer .iconos-flex{
-  display: flex;
-  margin: 2rem 0;
+    display: flex;
+    margin: 2rem 0;
 }
 footer .row-flex{
-  display: flex;
-  align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 }
 footer img{
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 #boton-xs{
-  margin-top:2rem;
+    margin-top:2rem;
 }
 
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
 @media (max-width:728px){
-  #taxi{
-    transform: none!important;
-  }
+    #taxi{
+         transform: none!important;
+     }
 
-  section.hero{
-    height: 54rem;
-  }
+    section.hero{
+        height: 54rem;
+    }
 
-  section.informacion{
-    height: 51rem;
-  }
+    section.informacion{
+        height: 51rem;
+    }
 
-  .registro{
-    top:12rem;
-  }
+    .registro{
+        top:12rem;
+    }
 
-  .row-left{
-    transform: none;
-    padding: 4rem;
-    padding-top: 6rem;
-    margin:4rem 2rem 2rem 2rem;
-  }
-  footer{
-    padding: 5rem 0;
-  }
-  .iconos-flex{
+    .row-left{
+        transform: none;
+        padding: 4rem;
+        padding-top: 6rem;
+        margin:4rem 2rem 2rem 2rem;
+    }
+    footer{
+        padding: 5rem 0;
+    }
+        .iconos-flex{
 
-  }
-  .footer-flex{
-    display: flex;
-    flex-direction: column;
-    height: 31rem;
-  }
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        height: 31rem;
+    }
 
 }
