@@ -25,6 +25,15 @@ form{
     margin: 2rem 0;
 
 }
+.form-group{
+    display: flex;
+    align-items: center;
+}
+
+.iconos{
+    padding-right: 1rem;
+}
+
 .inline{
     display: inline-block;
 }
@@ -143,6 +152,10 @@ section.tarifa input[type="text"]::-webkit-input-placeholder{
 section.tarifa button,
 section.tarifa h3{
     font-family: 'Raleway', sans-serif;
+}
+
+section.tarifa .precio{
+    color: #0a0a0a;
 }
 
 div.bordes-map{
