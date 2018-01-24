@@ -1,9 +1,26 @@
-.navbar{
-  font-family: 'Open Sans', sans-serif;
-  z-index: 1;
-  background-color: #FFF
+.nabcar.navbar{
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+    background-color: #FFF;
+    margin-bottom: 0;
+    padding: 0.5em;
+}
+.nabcar .container-fluid{
+    padding-left: 0;
+}
+.nabcar img{
+    height: 1.3em;
 }
 
+.nabcar .navbar-toggle{
+    float: left;
+}
+.nabcar .navbar-nav li a {
+    line-height: 40px;
+}
+.nabcar .icon-bar{
+    background-color: gray;
+}
 .col-md-12.hidden-xs{
   margin:0;
   padding: 0;
@@ -45,16 +62,16 @@ form{
     font-weight: bold;
 }
 
-.div-flex{
-    display: flex;
-    justify-content: space-around;
+.registro .titulo{
+    padding-bottom: 2em;
 }
-form hr{
-    width: 15rem;
+.registrar hr{
+    width: 7rem;
+    margin: 0 3rem;
 }
 
-form h4{
-    margin-bottom: 2rem;
+.registrar h4{
+    margin: 2em 0;
 }
 
 .line-height{
@@ -199,6 +216,10 @@ footer img{
     background-color: grey;
 }
 @media (max-width:728px){
+    .navbar img{
+        padding-left: 2em;
+    }
+
     #taxi{
          transform: none!important;
      }
