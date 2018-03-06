@@ -12,10 +12,9 @@
 </head>
 <body>
     <!---navbar---->
-        <nav class="navbar navbar-default">
+        <nav class="navbar nabcar">
           <div class="container-fluid">
             <div class="col-md-6">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -28,7 +27,6 @@
               </a>
             </div>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="col-md-6">
             <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
@@ -36,8 +34,8 @@
                 <li><a class="text-muted" href="#conduce">Conduce</a></li>
                 <li><a class="text-muted" href="#inicia-sesion">Inicia sesión</a></li>
               </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+            </div>
+          </div>
         </div>
       </nav>
   <!-- sección hero -->
@@ -45,18 +43,20 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-8 col-sm-5 registro">
-          <h2 class="hidden-xs">Disfruta del viaje</h2>
-          <h2 class="hidden-xs line-height">Eres dueño de tu tiempo</h2>
-          <h2 class="visible-xs">Comienza a</h2>
-          <h2 class="visible-xs">Viajar con</h2>
+          <div class="titulo">
+            <h3 class="hidden-xs">Disfruta del viaje</h3>
+            <h3 class="hidden-xs ">Eres dueño de tu tiempo</h3>
+          </div>
+          <h3 class="visible-xs">Comienza a</h3>
+          <h3 class="visible-xs">Viajar con</h3>
           <span class="hidden-xs">Viaja con </span><img src="assets/img/logo-blanco.png" alt="logo blanco labcar">
-          <form class="hidden-xs">
-              <div class="form-group">
-                <h4>Regístrate</h4>
-                <div class="div-flex"><hr class="inline"><h4 class="inline">O bien </h4><hr class="inline"></div>
+          <div class="registrar hidden-xs">
+              <h4>Regístrate</h4>
+              <div class="row">
+                <hr class="inline"><h4 class="inline"> O bien </h4><hr class="inline">
               </div>
               <button class="btn btn-default color-black" type="button" name="button">Conviértete en un conductor</button>
-          </form>
+          </div>
           <button id="boton-xs" class="btn btn-default color-black visible-xs" type="button" name="button">Descarga el app</button>
         </div>
       </div>
@@ -118,7 +118,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
   <footer>
     <div class="container-fluid">

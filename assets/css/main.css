@@ -1,16 +1,30 @@
-.navbar{
-  font-family: 'Open Sans', sans-serif;
-  z-index: 1;
-  background-color: #FFF;
+.nabcar.navbar{
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+    background-color: #FFF;
+    margin-bottom: 0;
+    padding: 0.5em;
 }
-nav img{
-  width: 92px;
+.nabcar .container-fluid{
+    padding-left: 0;
+}
+.nabcar img{
+    height: 1.3em;
+}
+
+.nabcar .navbar-toggle{
+    float: left;
+}
+.nabcar .navbar-nav li a {
+    line-height: 40px;
+}
+.nabcar .icon-bar{
+    background-color: gray;
 }
 .col-md-12.hidden-xs{
   margin:0;
   padding: 0;
 }
-
 section.hero{
     background-image: url("../img/taxi.jpg");
     background-repeat: no-repeat;
@@ -20,7 +34,6 @@ section.hero{
     font-family: 'Raleway', sans-serif;
     color: #FFF;
 }
-
 form{
     margin: 2rem 0;
 
@@ -29,7 +42,6 @@ form{
     display: flex;
     align-items: center;
 }
-
 .iconos{
     padding-right: 1rem;
 }
@@ -46,49 +58,42 @@ form{
     padding: 4rem;
     font-weight: bold;
 }
-
-.div-flex{
-    display: flex;
-    justify-content: space-around;
+.registro .titulo{
+    padding-bottom: 2em;
 }
-form hr{
-    width: 15rem;
+.registrar hr{
+    width: 7rem;
+    margin: 0 3rem;
 }
-
-form h4{
-    margin-bottom: 2rem;
+.registrar h4{
+    margin: 2em 0;
 }
 
 .line-height{
     line-height: 0;
     margin-bottom: 5rem;
 }
-
 .color-black{
     color:#000;
     font-weight: bold;
 }
-
 section.informacion{
     position: relative;
     background-color: #f7b617;
     height: 58rem;
     color: #FFF;
 }
-
 section.informacion h3{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-bottom: 3rem;
 }
-
 section.informacion p{
     font-family: 'Open Sans', sans-serif;
     line-height: 2.8rem;
     font-size: 1.8rem;
     margin-bottom: 3rem;
 }
-
 .row-left{
     display: flex;
     justify-content:flex-start;
@@ -98,19 +103,16 @@ section.informacion p{
     padding: 4rem 18rem;
     transform: translateX(-20%);
 }
-
 section.conduce{
     position: relative;
     height: 50rem;
 }
-
 img#conduce{
     position: absolute;
     left: 0;
     height: 50rem;
     width: 100%;
 }
-
 .div-conduce{
     position: absolute;
     height: 50rem;
@@ -119,13 +121,11 @@ img#conduce{
     color:#FFF;
     background-color: rgba(13, 19, 23, 0.43);
 }
-
 .btn-lab{
     background-color: #f7b617;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
-
 section.conduce h3{
     font-family: 'Raleway', sans-serif;
 }
@@ -133,53 +133,43 @@ section.conduce h3{
 section.conduce p{
     font-family: 'Open Sans', sans-serif;
 }
-
 section.tarifa{
     font-family: 'Open Sans', sans-serif;
     background-color: #f7b617;
     color:#FFF;
 }
-
 section.tarifa input{
     background-color: #f7b617;
     color:#FFF;
 }
-
 section.tarifa input[type="text"]::-webkit-input-placeholder{
     color: #fff;
 }
-
 section.tarifa button,
 section.tarifa h3{
     font-family: 'Raleway', sans-serif;
 }
-
 section.tarifa .precio{
     color: #0a0a0a;
 }
-
 div.bordes-map{
     padding: 1rem;
     border: 1px solid #FFF;
 }
-
 footer{
     background-color: #2b2b2b ;
     padding: 6rem;
     color: #FFF;
 }
-
 footer hr{
     border: 1px solid #FFF;
 }
-
 footer ul.nav li a{
     color:#FFF;
 }
 footer ul.nav li a:hover{
     color:#000;
 }
-
 footer .iconos-flex{
     display: flex;
     margin: 2rem 0;
@@ -201,6 +191,10 @@ footer img{
     background-color: grey;
 }
 @media (max-width:728px){
+    .navbar img{
+        padding-left: 2em;
+    }
+
     #taxi{
          transform: none!important;
      }
@@ -234,5 +228,4 @@ footer img{
         flex-direction: column;
         height: 31rem;
     }
-
 }
